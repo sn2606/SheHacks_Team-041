@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import './Components/Landing';
 import Landing from './Components/Landing';
+import Login from './Components/Login';
 import Desk from './Components/Desk';
 import FileUpload from './Components/FileUpload';
 import PersonalDrawer from './Components/PersonalDrawer';
@@ -16,12 +17,12 @@ function App() {
         <div className="App">
           <Route path="/" exact component={Landing} />
           <Route path="/desk" exact component={Desk} />
+          <Route path="/login" exact component={Login} />
           <Route path="/upload" exact component={FileUpload} />
           <Route path="/mid-way" exact component={Midway} />
           <Route path="/personaldrawer" exact component={PersonalDrawer} />
           <Route path="/groupstudying" exact component={GroupStudying} />
           <Route path="/pdfviewer" exact component={Pdfviewer} />
-
         </div>
       </Switch>
     </Router>
@@ -29,4 +30,3 @@ function App() {
 }
 
 export default App;
-
