@@ -7,6 +7,7 @@ import FileUpload from './Components/FileUpload';
 import Personal from './Components/Personal';
 import PersonalDrawer from './Components/PersonalDrawer';
 import Midway from './Components/Midway';
+import GroupStudying from './Components/GroupStudying';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route path="/mid-way" exact component={Midway} />
           <Route path="/personalupload" exact component={Personal} />
           <Route path="/personaldrawer" exact component={PersonalDrawer} />
-
+          <Route path="/groupstudying" exact component={GroupStudying} />
         </div>
       </Switch>
     </Router>
