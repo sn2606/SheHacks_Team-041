@@ -27,7 +27,7 @@ function PersonalDrawer() {
             </div>
             <div className="card__side card__side--back card__side--back-1">
               <div className="card__cta">
-                <a href="#popup" className="btn btn--white">Select</a>
+                <a href="/pdfviewer" className="btn btn--white">Select</a>
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@ function PersonalDrawer() {
             </div>
             <div className="card__side card__side--back card__side--back-2">
               <div className="card__cta">
-                <a href="#popup" className="btn btn--white">Select</a>
+                <a href="/pdfviewer" className="btn btn--white">Select</a>
               </div>
             </div>
           </div>
