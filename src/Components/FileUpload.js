@@ -1,4 +1,5 @@
 import axios from 'axios';
+
 import React, { Component } from 'react';
 
 class FileUpload extends Component {
@@ -74,7 +75,7 @@ class FileUpload extends Component {
     render() {
 
         return (
-            <div >
+            <div>
                 <h3>
                     File Upload
 			    </h3>
