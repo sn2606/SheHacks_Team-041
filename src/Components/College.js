@@ -5,14 +5,14 @@ import gif from '../assets/images/Study.gif';
 function College() {
     return (
         <div style={{backgroundColor: '#100e17',
-            fontFamily: 'Open Sans, sans-serif'}}>
+            fontFamily: 'Open Sans, sans-serif', height:'100vh'}}>
                 <div style={{display: 'inline-block !important'}}>
                 <h1 style={{fontSize: '3rem', padding: '4rem'}}>Place for all your college related stuff</h1>
                 <img style={{height: '30rem', width: '25rem', margin: '10px 30px'}} src={gif} />
                 <img style={{height: '30rem', width: '25rem', margin: '10px 30px'}} src={gif} />
                 <img style={{height: '30rem', width: '25rem', margin: '10px 30px'}} src={gif} />
                 </div>
-            <div class="container">
+            <div class="container" style={{marginLeft:'0'}}>
             <div class="card">  
                 <h3 class="title">PROJECTS</h3>
                 <div class="bar">

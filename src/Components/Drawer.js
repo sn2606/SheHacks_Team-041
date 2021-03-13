@@ -4,7 +4,7 @@ import '../Styles/Drawer.css';
 
 function Drawer() {
     return (
-        <div class="container">
+        <div class="container" style={{left:'0'}}>
             <div class="card">
                 <div class="face face1">
                     <div class="content">
