@@ -6,13 +6,15 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import Radio from '@material-ui/core/Radio';
 import Paper from '@material-ui/core/Paper';
+import Singlepage from './Singlepage';
+import samplePDF from '../assets/pdf/2K19-SE-012.pdf';
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
   paper: {
-    height: 260,
+    height: 160,
     width: 180,
   },
   control: {
@@ -34,7 +36,7 @@ export default function PdfViewer() {
         <Grid container justify="center" spacing={spacing}>
           {[0, 1, 2].map((value) => (
             <Grid key={value} item>
-              <Paper className={classes.paper} />
+              <Singlepage pdf={samplePDF} />
             </Grid>
           ))}
         </Grid>

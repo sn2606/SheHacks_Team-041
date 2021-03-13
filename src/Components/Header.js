@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { AppBar, IconButton, Toolbar, Collapse } from '@material-ui/core';
+import { AppBar, IconButton, Toolbar, Collapse, Button } from '@material-ui/core';
 import SortIcon from '@material-ui/icons/Sort';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import { Link as Scroll } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: '2rem',
   },
   colorText: {
-    color: '#5AFF3D',
+    color: '#3cbb25',
   },
   container: {
     textAlign: 'center',
@@ -77,11 +77,11 @@ export default function Header() {
             My<span className={classes.colorText}>Desk.</span>
           </h1>
           <p className={classes.para}>Your Virtual Space.</p>
-          <Scroll to="Todo-list" smooth={true}>
-            <IconButton>
-              <ExpandMoreIcon className={classes.goDown} />
-            </IconButton>
-          </Scroll>
+          <Link to='/login'>
+          <Button variant="contained" color="black" size="medium" style={{marginTop: '3rem', fontSize: '2rem', borderRadius: '2%', backgroundColor: '#3cbb25'}}>
+            Enter Your Desk
+          </Button>
+          </Link>
         </div>
       </Collapse>
     </div>
