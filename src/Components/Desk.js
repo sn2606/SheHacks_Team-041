@@ -7,6 +7,7 @@ import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import Clock from 'react-clock';
 import 'react-clock/dist/Clock.css';
+import LogoutHooks from './LogoutHooks';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -58,6 +59,9 @@ export default function Desk() {
         <Drawer />
         </div>
       </Grid>
+      <div className="Logout-card">
+        <LogoutHooks />
+      </div>
     </div>
   );
 }

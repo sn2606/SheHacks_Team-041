@@ -16,6 +16,7 @@ function LoginHooks() {
 
   const onSuccess = (res) => {
     console.log('Login Success: currentUser:', res.profileObj);
+    // <div class="alert alert-success">Logged in successfully welcome ${res.profileObj.name}</div>
     // alert(
     //   `Logged in successfully welcome ${res.profileObj.name}`
     // );
