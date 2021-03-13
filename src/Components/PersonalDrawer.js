@@ -13,9 +13,9 @@ function PersonalDrawer() {
         </h2>
       </div>
 
-      <div className="row" style={{marginTop:'12rem'}}>
+      <div className="row" style={{marginTop:'12rem',marginLeft:'15rem',marginRight:'0'}}>
         <div className="col-1-of-3" style={{marginLeft:'25rem'}}>
-          <div className="card">
+          <div className="card" style={{width:'50rem'}}>
             <div className="card__side card__side--front-1">
               <div className="card__title card__title--1">
                 <h4 className="card__heading">Important Documents</h4>
@@ -34,7 +34,7 @@ function PersonalDrawer() {
         </div>
 
         <div className="col-1-of-3">
-          <div className="card">
+          <div className="card" style={{width:'50rem'}}>
             <div className="card__side card__side--front-2">
               <div className="card__title card__title--2">
                 <h4 className="card__heading">Medical Records</h4>
