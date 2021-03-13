@@ -14,7 +14,7 @@ function Drawer() {
             <div class="face face2">
                 <div class="content">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                        <a href="#">Open</a>
+                        <Link to="/upload">Open</Link>
                 </div>
             </div>
         </div>
