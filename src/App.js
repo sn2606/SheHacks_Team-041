@@ -9,6 +9,7 @@ import PersonalDrawer from './Components/PersonalDrawer';
 import Midway from './Components/Midway';
 import GroupStudying from './Components/GroupStudying';
 import Pdfviewer from './Components/Pdfviewer';
+import College from './Components/College';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
           <Route path="/personaldrawer" exact component={PersonalDrawer} />
           <Route path="/groupstudying" exact component={GroupStudying} />
           <Route path="/pdfviewer" exact component={Pdfviewer} />
+          <Route path="/college" exact component={College} />
+
         </div>
       </Switch>
     </Router>

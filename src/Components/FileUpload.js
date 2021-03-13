@@ -1,3 +1,4 @@
+import { Button } from '@material-ui/core';
 import axios from 'axios';
 
 import React, { Component } from 'react';
@@ -47,7 +48,7 @@ class FileUpload extends Component {
 
             return (
                 <div>
-                    <h2>File Details:</h2>
+                    <h2 style={{padding: '1rem', fontSize: '2rem'}}>File Details:</h2>
 
                     <p>File Name: {this.state.selectedFile.name}</p>
 
@@ -75,15 +76,15 @@ class FileUpload extends Component {
     render() {
 
         return (
-            <div>
-                <h3>
-                    File Upload
-			    </h3>
+            <div style={{marginTop: '4rem'}}>
+                <h2 style={{padding: '2rem', fontSize: '3rem'}}>
+                    ADD ASSIGNMENT
+			    </h2>
                 <div>
                     <input type="file" onChange={this.onFileChange} />
-                    <button onClick={this.onFileUpload}>
-                        Upload!
-				</button>
+                    <Button variant="contained" color="primary" onClick={this.onFileUpload}>
+                        Upload
+				</Button>
                 </div>
                 {this.fileData()}
             </div>
