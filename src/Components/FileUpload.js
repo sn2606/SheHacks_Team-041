@@ -74,7 +74,7 @@ class FileUpload extends Component {
     render() {
 
         return (
-            <div>
+            <div >
                 <h3>
                     File Upload
 			    </h3>

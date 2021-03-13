@@ -37,7 +37,7 @@ export default function Desk() {
   }, []);
   return (
     <div className={classes.root}>
-      <Grid style={{width:'100%'}} container spacing={3}>
+      <Grid style={{width:'100%'}} container spacing={3} style={{fontSize:'191%',width:'100%'}}>
         <Grid item xs={12} sm={6} style={{padding:'3rem'}} >
             <TodoList/>
         </Grid>
