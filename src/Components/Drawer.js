@@ -15,7 +15,7 @@ function Drawer() {
                 <div class="face face2">
                     <div class="content">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                        <Link to="/mid-way">Open</Link>
+                        <Link to="/college">Open</Link>
                     </div>
                 </div>
             </div>

@@ -8,6 +8,9 @@ import 'react-calendar/dist/Calendar.css';
 import Clock from 'react-clock';
 import 'react-clock/dist/Clock.css';
 import LogoutHooks from './LogoutHooks';
+import { Button } from '@material-ui/core';
+import { Link } from 'react-router-dom';
+import '../Styles/Button.css';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -59,6 +62,13 @@ export default function Desk() {
         <Drawer />
         </div>
       </Grid>
+      <div className="Logout-card">
+        <Link to='/groupstudying'>
+        <Button variant="contained" color="black" size="medium" style={{margin: '3rem', fontSize: '2rem', borderRadius: '5%', backgroundColor: 'white'}}>
+              <span>Group Study</span>
+            </Button>
+        </Link>
+      </div>
       <div className="Logout-card">
         <LogoutHooks />
       </div>
